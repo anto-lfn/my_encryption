@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Encryption</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="text-container">
+      <input type="text" id="key" placeholder="Enter 4-digit key">
+      <textarea id="inputText" placeholder="Input"></textarea>
+      <div class="button-container">
+        <button onclick="transform('encrypt')">Encrypt</button>
+        <button onclick="transform('decrypt')">Decrypt</button>
+        <button onclick="saveAsPDF()">Save</button>
+      </div>
+      <textarea id="outputText" placeholder="Output"></textarea>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
